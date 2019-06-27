@@ -129,19 +129,14 @@ fs.readFile("random.txt", "utf8", function(error, data) {
     }
   
    
-    console.log(data);
   
     
     var dataArr = data.split(",");
 
-    console.log(dataArr[0]);
-    console.log(dataArr[1]);
 
     process.argv[2] = dataArr[0];
     process.argv[3] = dataArr[1];
 
-    console.log(process.argv[2]);
-    console.log(process.argv[3]);
 
     
     

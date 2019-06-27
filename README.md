@@ -7,7 +7,6 @@ A command line node app that searches Spotify for songs, Bands in Town for conce
 
 
 
-Include screenshots, gifs or videos of the app functioning
-Contain a link to a deployed version of the app
-Clearly list the technologies used in the app
-
+<img src="/Users/LauraNeff/Desktop/Switch1.png" width="350">
+<img src="/Users/LauraNeff/Desktop/Switch2.png" width="350">
+<img src="/Users/LauraNeff/Desktop/Switch3.png" width="350">
