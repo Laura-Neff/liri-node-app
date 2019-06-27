@@ -13,6 +13,10 @@ var fs = require("fs");
 var moment = require("moment");
 
 
+var runAgain = true;
+while(runAgain){
+    runAgain = false;
+
 
 switch(process.argv[2])
 {
@@ -23,6 +27,7 @@ switch(process.argv[2])
     .then(function(response) {
         // console.log(response);
         for(var i = 0; i < response.data.length; i++){
+            console.log("------------------------")
             console.log(response.data[i].venue.name);
             if(response.data[i].venue.region != "") {
                 console.log(response.data[i].venue.city + ", " + response.data[i].venue.region + ", " + response.data[i].venue.country);
@@ -53,7 +58,7 @@ switch(process.argv[2])
   case "spotify-this-song":
   var song = process.argv[3];
   if(song === undefined){
-      song = "The Sign";
+      song = "The Sign Ace of Base";
   }
   spotify.search({type:"track", query:song})
 
@@ -62,12 +67,12 @@ switch(process.argv[2])
     
     for(var i = 0; i < response.tracks.items.length; i++){
 
-        if(song = "The Sign"){
-            response.tracks.items[i].artists = "Ace of Base";
-            response.tracks.items[i].name = "The Sign";
-        }
+        // if(song = "The Sign"){
+            // response.tracks.items[i].artists = "Ace of Base";
+            // response.tracks.items[i].name = "The Sign";
+        // }
         console.log("-----------------------------");
-        console.log(response.tracks.items[i].artists);
+        console.log(response.tracks.items[i].artists[0].name);
         console.log(response.tracks.items[i].name);
         console.log(response.tracks.items[i].preview_url);
         console.log(response.tracks.items[i].album.name);
@@ -143,16 +148,14 @@ fs.readFile("random.txt", "utf8", function(error, data) {
 
 
   });
+  console.log("----------");
+  
+  
+//   runAgain = true;
   break;
 
-
-
   
-
-
-  
-
-
+}
 }
 
 
