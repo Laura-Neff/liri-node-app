@@ -5,7 +5,7 @@ A command line node app that searches Spotify for songs, Bands in Town for conce
 
 
 
-![switch-case-1](cd /Users/LauraNeff/Desktop/Switch1.png)
+![switch-case-1](/Users/LauraNeff/Desktop/Switch1.png)
 
 ![switch-case-2](/Users/LauraNeff/Desktop/Switch2.png)
 
