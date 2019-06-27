@@ -5,9 +5,8 @@ A command line node app that searches Spotify for songs, Bands in Town for conce
 
 
 
+![switch-case-1](/Users/LauraNeff/Desktop/Switch1)
 
+![switch-case-2](/Users/LauraNeff/Desktop/Switch2)
 
-Include screenshots, gifs or videos of the app functioning
-Contain a link to a deployed version of the app
-Clearly list the technologies used in the app
-
+![switch-case-1](/Users/LauraNeff/Desktop/Switch3)
